@@ -15,7 +15,7 @@ function Credits() {
         {creditCards.map((item, index) => {
           return (
             <div className="img-div" key={index}>
-              <img src={item} alt="credit-image" />
+              <img src={item} alt="credit" />
             </div>
           );
         })}

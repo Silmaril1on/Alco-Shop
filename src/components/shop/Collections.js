@@ -39,7 +39,7 @@ function Collections() {
         {alcohols.map((item) => {
           return (
             <div className="collection-card" key={item.id}>
-              <img src={item.image} alt="spirit-image" />
+              <img src={item.image} alt="spirit" />
               <h3>{item.name}</h3>
             </div>
           );

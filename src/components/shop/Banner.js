@@ -7,7 +7,7 @@ import Button from "../Button";
 function Banner() {
   return (
     <div className="banner">
-      <img src={bar} alt="bar-photo" />
+      <img src={bar} alt="bar" />
       <div className="banner-content">
         <Header $variants="primary">YOUR ONLINE STORE WITH</Header>
         <Header $size="sm" $weight="bold" $variants="primary">

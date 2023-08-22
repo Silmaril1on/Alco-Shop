@@ -32,7 +32,7 @@ function TopBrands() {
         {spiritBrands.map((product) => {
           return (
             <div className="brand" key={product.id}>
-              <a href="#">
+              <a href={product.link}>
                 <img src={product.image} alt="brand-logo" />
               </a>
             </div>

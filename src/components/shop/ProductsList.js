@@ -1,6 +1,5 @@
 import React from "react";
 import "./shop.scss";
-import alcohols from "../AlcoholsData";
 
 function ProductsList() {
   return (

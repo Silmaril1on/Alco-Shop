@@ -44,7 +44,7 @@ function Slider({ direction, index, left, right }) {
             custom={direction}
             className="slider-wrapper"
           >
-            <img src={index.image} alt="picture" />
+            <img src={index.image} alt="slider" />
             <div className="slider-info">
               <h3>{index.name}</h3>
               <h5>{index.info}</h5>

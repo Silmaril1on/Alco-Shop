@@ -41,14 +41,16 @@ function SideMenu({ sideMenu }) {
           initial="hidden"
           whileInView="visible"
         >
-          <a href="#">whiskey</a>
-          <a href="#">cognac</a>
-          <a href="#">tequila</a>
-          <a href="#">rum</a>
-          <a href="#">gin</a>
-          <a href="#">liqueurs</a>
-          <a href="#">wine</a>
-          <a href="#">beer</a>
+          <a href="whiskey">whiskey</a>
+          <a href="cognac">cognac</a>
+          <a href="tequila">tequila</a>
+          <a href="rum">rum</a>
+          <a href="gin">gin</a>
+          <a href="liqueur">liqueurs</a>
+          <a href="wine">wine</a>
+          <a href="beer">beer</a>
+          <a href="vodka">vodka</a>
+          <a href="vermouth">vermouth</a>
         </motion.ul>
 
         <motion.div

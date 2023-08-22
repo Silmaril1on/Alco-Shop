@@ -14,7 +14,7 @@ const alcohols = [
     id: 0,
     name: "whiskey",
     image: whiskey,
-    link: "#",
+    link: "whiskey",
     types: [
       {
         name: "scotch whisky",
@@ -114,7 +114,7 @@ const alcohols = [
     id: 1,
     name: "gin",
     image: ginn,
-    link: "#",
+    link: "gin",
     types: [
       {
         name: "scotch whisky",
@@ -213,7 +213,7 @@ const alcohols = [
     id: 2,
     name: "cognac",
     image: cognac,
-    link: "#",
+    link: "cognac",
     types: [
       {
         name: "armagnac",
@@ -315,7 +315,7 @@ const alcohols = [
     id: 3,
     name: "rum",
     image: rum,
-    link: "#",
+    link: "rum",
     types: [
       {
         name: "white rum",
@@ -414,7 +414,7 @@ const alcohols = [
     id: 4,
     name: "beer",
     image: beer,
-    link: "#",
+    link: "beer",
     types: [
       {
         name: "scotch whisky",
@@ -513,7 +513,7 @@ const alcohols = [
     id: 5,
     name: "vodka",
     image: vodka,
-    link: "#",
+    link: "vodka",
     types: [
       {
         name: "scotch whisky",
@@ -612,7 +612,7 @@ const alcohols = [
     id: 6,
     name: "tequila",
     image: tequila,
-    link: "#",
+    link: "tequila",
     types: [
       {
         name: "scotch whisky",
@@ -711,7 +711,7 @@ const alcohols = [
     id: 7,
     name: "liqueur",
     image: liqueur,
-    link: "#",
+    link: "liqueur",
     types: [
       {
         name: "scotch whisky",
@@ -810,7 +810,7 @@ const alcohols = [
     id: 8,
     name: "wine",
     image: winee,
-    link: "#",
+    link: "wine",
     types: [
       {
         name: "scotch whisky",
@@ -909,7 +909,7 @@ const alcohols = [
     id: 9,
     name: "vermouth",
     image: vemouth,
-    link: "#",
+    link: "vermouth",
     types: [
       {
         name: "scotch whisky",
