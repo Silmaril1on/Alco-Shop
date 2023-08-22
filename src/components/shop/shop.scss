@@ -1,0 +1,129 @@
+.shop-page {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  //   overflow: hidden;
+  background-color: #ddd;
+  width: 100%;
+
+  .banner {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 10px;
+    width: 95%;
+    @media screen and (min-width: 900px) {
+      width: 70%;
+    }
+
+    .banner-content {
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      width: 100%;
+    }
+  }
+
+  .collection-buttons-container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+
+    h4 {
+      font-weight: normal;
+      padding: 10px;
+      text-align: center;
+      max-width: 500px;
+    }
+
+    .offer-section {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      @media screen and (min-width: 1000px) {
+        flex-direction: row;
+      }
+
+      div {
+        align-items: center;
+        background-color: beige;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        height: 180px;
+        justify-content: center;
+        text-transform: capitalize;
+        width: 330px;
+        width: auto;
+        @media screen and (min-width: 1000px) {
+          width: 400px;
+        }
+
+        img {
+          height: 60px;
+          width: 60px;
+        }
+
+        p {
+          font-size: 0.7rem;
+          padding: 5px 10px;
+          text-align: center;
+        }
+      }
+    }
+
+    .wrapper {
+      display: flex;
+      flex-direction: wrap;
+      flex-wrap: wrap;
+      justify-content: center;
+
+      .collection-card {
+        height: 170px;
+        margin: 5px;
+        overflow: hidden;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        position: relative;
+        width: 170px;
+        @media screen and (min-width: 1200px) {
+          height: 220px;
+          margin: 10px;
+          width: 250px;
+        }
+
+        img {
+          height: 100%;
+          object-fit: cover;
+          transition: 0.4s ease-in;
+          width: 100%;
+          &:hover {
+            filter: brightness(0.6);
+            transform: scale(1.1);
+          }
+        }
+
+        h3 {
+          color: black;
+          cursor: pointer;
+          font: bold 1.3rem dancing script;
+          background-color: #fff;
+          position: absolute;
+          text-transform: capitalize;
+          letter-spacing: 2px;
+          padding: 5px 10px;
+        }
+      }
+    }
+  }
+}

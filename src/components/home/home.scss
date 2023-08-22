@@ -1,0 +1,136 @@
+.home-page {
+  display: flex;
+  flex-direction: column;
+}
+
+/*  beautiful girl content */
+.headline {
+  align-items: center;
+  background-color: #d3d4dd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  h1 {
+    padding: 20px;
+  }
+
+  h3 {
+    font-weight: normal;
+    font-size: 0.7rem;
+    padding: 10px;
+    text-align: center;
+    max-width: 750px;
+    @media screen and (min-width: 1200px) {
+      font-size: 1rem;
+    }
+  }
+}
+
+.background-container {
+  position: relative;
+
+  .banner-container {
+    height: 100%;
+    width: 100%;
+
+    img {
+      height: 100%;
+      vertical-align: top;
+      width: 100%;
+    }
+  }
+
+  .shop-container {
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.214);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    width: 100%;
+
+    h3 {
+      color: #ccc;
+      font-size: 0.5rem;
+      letter-spacing: 1px;
+      text-align: center;
+      width: 100%;
+      @media screen and (min-width: 800px) {
+        font-size: 1rem;
+        padding: 10px;
+        margin-bottom: 15px;
+        width: 900px;
+      }
+    }
+  }
+}
+
+/*engrave section */
+
+h1 {
+  text-align: start;
+  justify-content: start;
+  display: flex;
+}
+
+.engrave-container {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  @media screen and (min-width: 900px) {
+    height: 500px;
+    flex-direction: row;
+  }
+
+  .image-div {
+    width: 100%;
+    @media screen and (min-width: 900px) {
+      width: 60%;
+    }
+
+    img {
+      height: 100%;
+      vertical-align: top;
+      object-fit: cover;
+      width: 100%;
+    }
+  }
+
+  .info {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    position: relative;
+    @media screen and (min-width: 900px) {
+      width: 40%;
+    }
+
+    h3 {
+      font-weight: normal;
+      font-size: 0.7rem;
+      padding: 15px;
+      text-align: center;
+      width: 80%;
+      @media screen and (min-width: 900px) {
+        font-size: 1rem;
+      }
+    }
+
+    .engrave-info {
+      background: url("https://uptownspirits.com/cdn/shop/t/21/assets/swirl.svg");
+      background-color: rgb(218, 218, 185);
+      height: 100%;
+      position: absolute;
+      opacity: 0.4;
+      top: 0;
+      width: 100%;
+      z-index: -22;
+    }
+  }
+}
