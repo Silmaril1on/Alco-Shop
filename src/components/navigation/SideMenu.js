@@ -49,8 +49,6 @@ function SideMenu({ sideMenu }) {
           <a href="liqueur">liqueurs</a>
           <a href="wine">wine</a>
           <a href="beer">beer</a>
-          <a href="vodka">vodka</a>
-          <a href="vermouth">vermouth</a>
         </motion.ul>
 
         <motion.div
