@@ -9,20 +9,20 @@ function ProductsList() {
   const [spirits, setSpirits] = useState([]);
   const [category, setCategory] = useState("all");
 
-  const filterSpirits = () => {
-    let newSpirits;
-    let arr;
-    if (category === "all") {
-      newSpirits = alcohols.map((item) => item.product);
-      arr = [].concat(...newSpirits);
-      setSpirits(arr);
-    } else {
-      newSpirits = alcohols.find((item) => item.category === category);
-      setSpirits(newSpirits.product);
-    }
-  };
-
   useEffect(() => {
+    const filterSpirits = () => {
+      let newSpirits;
+      let arr;
+      if (category === "all") {
+        newSpirits = alcohols.map((item) => item.product);
+        arr = [].concat(...newSpirits);
+        setSpirits(arr);
+      } else {
+        newSpirits = alcohols.find((item) => item.category === category);
+        setSpirits(newSpirits.product);
+      }
+    };
+
     filterSpirits();
   }, [category]);
 
