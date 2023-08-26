@@ -1,5 +1,6 @@
 import React from "react";
 import banner from "../../../assets/home-background.webp";
+import { useNavigate } from "react-router-dom";
 import Button from "../../Button";
 import Header from "../../Header";
 import { motion } from "framer-motion";
@@ -47,6 +48,12 @@ const child2 = {
 };
 
 function Background() {
+  const navigate = useNavigate();
+
+  const store = () => {
+    navigate("/store");
+  };
+
   return (
     <>
       <div className="headline">
@@ -80,7 +87,9 @@ function Background() {
             from the comfort of your home.
           </motion.h3>
           <motion.div variants={child2}>
-            <Button $variants="black">Shop Now</Button>
+            <Button onClick={store} $variants="black">
+              Shop Now
+            </Button>
           </motion.div>
         </motion.div>
       </motion.div>

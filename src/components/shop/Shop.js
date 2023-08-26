@@ -2,7 +2,7 @@ import React from "react";
 import "./shop.scss";
 import Banner from "./Banner";
 import Collections from "./Collections";
-import ProductsList from "./ProductsList";
+import ProductsList from "../../containers/ProductsList";
 
 function Shop() {
   return (

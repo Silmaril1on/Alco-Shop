@@ -10,6 +10,7 @@ function Header({ children, $size, $variants, $weight }) {
 }
 
 const Title = styled.h1`
+  display: block;
   font-size: ${({ $size }) =>
     $size === "xl"
       ? "4rem"

@@ -9,3 +9,14 @@ body {
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+
+@font-face {
+  font-family: "semplicitapro";
+  src: local("semplicitapro"),
+    url("../src/fonts/SemplicitaPro.otf") format("opentype");
+}
+@font-face {
+  font-family: "semplicitaprobold";
+  src: local("semplicitapro"),
+    url("../src/fonts/SemplicitaPro-Bold.otf") format("opentype");
+}

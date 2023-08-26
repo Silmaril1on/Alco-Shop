@@ -69,9 +69,51 @@ $myDark: #353535;
     @media screen and (min-width: 800px) {
       height: 45px;
       display: flex;
+      flex-direction: column;
       margin-top: 3px;
       justify-content: center;
       align-items: center;
+    }
+
+    .search-result {
+      background-color: azure;
+      color: black;
+      height: auto;
+      position: absolute;
+      padding: 4px;
+      top: 77px;
+      z-index: 2;
+      width: 400px;
+
+      .result-card {
+        align-items: center;
+        cursor: pointer;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 4px;
+        padding: 4px;
+        transition: 0.3s;
+        width: auto;
+        &:hover {
+          background-color: rgba(185, 181, 181, 0.507);
+        }
+
+        img {
+          height: 50px;
+          width: 50px;
+        }
+
+        h2 {
+          font: normal 1rem semplicitapro;
+          text-transform: capitalize;
+        }
+
+        h4 {
+          font-size: 0.8rem;
+          padding-right: 5px;
+        }
+      }
     }
 
     form {
@@ -278,10 +320,10 @@ $myDark: #353535;
 /*spirit dropdown styles */
 .spirits-dropdown-container {
   background-color: #303030;
+  height: 400px;
+  left: 0;
   position: absolute;
   top: 75px;
-  left: 0;
-  height: 400px;
   width: 100%;
   z-index: 5;
 
@@ -308,6 +350,7 @@ $myDark: #353535;
         margin: 4px;
         padding: 3px;
         text-transform: capitalize;
+        text-align: center;
         transition: 0.3s;
         &:hover {
           color: white;
