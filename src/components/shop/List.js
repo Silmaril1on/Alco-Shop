@@ -73,7 +73,7 @@ function List() {
             animate="visible"
             className="warning-popup"
           >
-            product is already in card
+            product is already in cart
           </motion.div>
         )}
       </div>

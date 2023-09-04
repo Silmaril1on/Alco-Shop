@@ -6,13 +6,11 @@ import Wine from "./components/wine/Wine";
 import Beer from "./components/beer/Beer";
 import Footer from "./components/footer/Footer";
 import Shop from "./components/shop/Shop";
-import Cart from "./components/Cart";
 
 function App() {
   return (
     <>
       <Navigation />
-      {/* <Cart /> */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/wine" element={<Wine />} />

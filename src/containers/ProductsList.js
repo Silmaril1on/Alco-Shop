@@ -23,7 +23,7 @@ function ProductsList() {
     const handlePrice = () => {
       let money = 0;
       cartAmount.map((item) => {
-        money += item.amount * item.price;
+        return (money += item.amount * item.price);
       });
       setPrice(money);
     };

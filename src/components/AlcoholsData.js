@@ -857,7 +857,6 @@ const alcohols = [
         link: "#",
         image: legado,
         amount: 1,
-        amount: 1,
         price: 95,
       },
       {
