@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useContext } from "react";
 import PriceRange from "./PriceRange";
 import Header from "../Header";
+import { ShopContext } from "../../containers/ProductsList";
 
-function FilterButtons({ spirits, callBack, setSpirits }) {
+function FilterButtons() {
+  const { spirits, setCategory, setSpirits } = useContext(ShopContext);
+
   const categoryBtn = [
     {
       id: 0,
@@ -72,7 +75,7 @@ function FilterButtons({ spirits, callBack, setSpirits }) {
               className="active-button"
               key={item.id}
               id={item.id}
-              onClick={() => callBack(item.category)}
+              onClick={() => setCategory(item.category)}
             >
               {item.name}
             </h1>

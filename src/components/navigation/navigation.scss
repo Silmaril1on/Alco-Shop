@@ -7,6 +7,7 @@ $myDark: #353535;
   display: flex;
   justify-content: space-between;
   padding: 10px;
+  z-index: 5;
   @media screen and (min-width: 800px) {
     justify-content: space-between;
   }
@@ -178,10 +179,10 @@ $myDark: #353535;
   height: 100%;
   left: 0;
   position: fixed;
-  top: 55px;
+  top: 75px;
   transition: 0.3s linear;
   width: 100%;
-  z-index: 22;
+  z-index: 5;
 
   .side-wrapper {
     margin: 4px;

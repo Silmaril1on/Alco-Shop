@@ -139,6 +139,7 @@ const alcohols = [
         name: "johnnie walker black label",
         link: "#",
         image: walker,
+        amount: 1,
         price: 48,
       },
       {
@@ -146,6 +147,7 @@ const alcohols = [
         name: "chivas regal 18 year",
         link: "#",
         image: chivas18,
+        amount: 1,
         price: 65,
       },
       {
@@ -153,6 +155,7 @@ const alcohols = [
         name: "jack daniels",
         link: "#",
         image: daniels,
+        amount: 1,
         price: 43,
       },
       {
@@ -160,6 +163,7 @@ const alcohols = [
         name: "jameson",
         link: "#",
         image: jameson,
+        amount: 1,
         price: 45,
       },
       {
@@ -167,6 +171,7 @@ const alcohols = [
         name: "jim beam",
         link: "#",
         image: jimbeam,
+        amount: 1,
         price: 50,
       },
       {
@@ -174,6 +179,7 @@ const alcohols = [
         name: "bushmills",
         link: "#",
         image: bushmills,
+        amount: 1,
         price: 78,
       },
       {
@@ -181,6 +187,7 @@ const alcohols = [
         name: "Glenmorangie",
         link: "#",
         image: glenmorangie,
+        amount: 1,
         price: 85,
       },
       {
@@ -188,6 +195,7 @@ const alcohols = [
         name: "glenfiddich",
         link: "#",
         image: glenfiddich,
+        amount: 1,
         price: 95,
       },
       {
@@ -195,6 +203,7 @@ const alcohols = [
         name: "lagavulin",
         link: "#",
         image: lagavulin,
+        amount: 1,
         price: 155,
       },
       {
@@ -202,6 +211,7 @@ const alcohols = [
         name: "balvenie",
         link: "#",
         image: balvenie,
+        amount: 1,
         price: 95,
       },
     ],
@@ -230,6 +240,7 @@ const alcohols = [
         name: "beefeater",
         link: "#",
         image: beefeater,
+        amount: 1,
         price: 30,
       },
       {
@@ -237,6 +248,7 @@ const alcohols = [
         name: "silent pool gin",
         link: "#",
         image: silent,
+        amount: 1,
         price: 54,
       },
       {
@@ -244,6 +256,7 @@ const alcohols = [
         name: "tanqueray",
         link: "#",
         image: tanqueray,
+        amount: 1,
         price: 42,
       },
       {
@@ -251,6 +264,7 @@ const alcohols = [
         name: "sapphire bombay",
         link: "#",
         image: sapphire,
+        amount: 1,
         price: 38,
       },
       {
@@ -258,6 +272,7 @@ const alcohols = [
         name: "hendrick's",
         link: "#",
         image: hendricks,
+        amount: 1,
         price: 55,
       },
       {
@@ -265,6 +280,7 @@ const alcohols = [
         name: "bulldog",
         link: "#",
         image: bulldog,
+        amount: 1,
         price: 48,
       },
       {
@@ -272,6 +288,7 @@ const alcohols = [
         name: "empress 1908",
         link: "#",
         image: empress,
+        amount: 1,
         price: 35,
       },
       {
@@ -279,6 +296,7 @@ const alcohols = [
         name: "monkey 47",
         link: "#",
         image: monkey,
+        amount: 1,
         price: 47,
       },
       {
@@ -286,6 +304,7 @@ const alcohols = [
         name: "seagrams gin",
         link: "#",
         image: seagrams,
+        amount: 1,
         price: 35,
       },
       {
@@ -293,6 +312,7 @@ const alcohols = [
         name: "bareksten botanical",
         link: "#",
         image: bareksten,
+        amount: 1,
         price: 43,
       },
     ],
@@ -323,6 +343,7 @@ const alcohols = [
         name: "hennessy V.S",
         link: "#",
         image: hennessyvs,
+        amount: 1,
         price: 95,
       },
       {
@@ -330,6 +351,7 @@ const alcohols = [
         name: "hennessy X.O",
         link: "#",
         image: hennessyxo,
+        amount: 1,
         price: 270,
       },
       {
@@ -337,6 +359,7 @@ const alcohols = [
         name: "D'usse VSOP",
         link: "#",
         image: dussevsop,
+        amount: 1,
         price: 99,
       },
       {
@@ -351,6 +374,7 @@ const alcohols = [
         name: "Remy martin 1738",
         link: "#",
         image: remy1738,
+        amount: 1,
         price: 243,
       },
       {
@@ -358,6 +382,7 @@ const alcohols = [
         name: "D'usse X.O",
         link: "#",
         image: dussexo,
+        amount: 1,
         price: 210,
       },
       {
@@ -365,6 +390,7 @@ const alcohols = [
         name: "martell VSOP",
         link: "#",
         image: martellvsop,
+        amount: 1,
         price: 120,
       },
       {
@@ -372,6 +398,7 @@ const alcohols = [
         name: "remy martin X.O",
         link: "#",
         image: remyxo,
+        amount: 1,
         price: 180,
       },
       {
@@ -379,6 +406,7 @@ const alcohols = [
         name: "courvoisier X.O",
         link: "#",
         image: courvoisierxo,
+        amount: 1,
         price: 195,
       },
       {
@@ -386,6 +414,7 @@ const alcohols = [
         name: "hardy legend 1863",
         link: "#",
         image: hardy1863,
+        amount: 1,
         price: 57.95,
       },
       {
@@ -393,6 +422,7 @@ const alcohols = [
         name: "courvoisier 21 year",
         link: "#",
         image: courvoisier21,
+        amount: 1,
         price: 313,
       },
     ],
@@ -423,6 +453,7 @@ const alcohols = [
         name: "bacardi superior rum",
         link: "#",
         image: bacardiblanco,
+        amount: 1,
         price: 35,
       },
       {
@@ -430,6 +461,7 @@ const alcohols = [
         name: "malibu original",
         link: "#",
         image: malibu,
+        amount: 1,
         price: 56,
       },
       {
@@ -437,6 +469,7 @@ const alcohols = [
         name: "captain morgan spiced rum",
         link: "#",
         image: morgan,
+        amount: 1,
         price: 50,
       },
       {
@@ -444,6 +477,7 @@ const alcohols = [
         name: "bumbu X.O",
         link: "#",
         image: bumbuxo,
+        amount: 1,
         price: 68,
       },
       {
@@ -451,6 +485,7 @@ const alcohols = [
         name: "bacardi gold",
         link: "#",
         image: bacardigold,
+        amount: 1,
         price: 45,
       },
       {
@@ -458,6 +493,7 @@ const alcohols = [
         name: "hamilton zombie blend rum",
         link: "#",
         image: hamilton,
+        amount: 1,
         price: 75,
       },
       {
@@ -465,6 +501,7 @@ const alcohols = [
         name: "sailor jerry spiced rum",
         link: "#",
         image: jerry,
+        amount: 1,
         price: 60,
       },
       {
@@ -472,6 +509,7 @@ const alcohols = [
         name: "ron del barrilito three stars puerto",
         link: "#",
         image: barrilito,
+        amount: 1,
         price: 59,
       },
       {
@@ -479,6 +517,7 @@ const alcohols = [
         name: "appleton estate 12 year rare cask",
         link: "#",
         image: appleton,
+        amount: 1,
         price: 69,
       },
       {
@@ -486,6 +525,7 @@ const alcohols = [
         name: "trader vie's spiced rum",
         link: "#",
         image: trader,
+        amount: 1,
         price: 80,
       },
     ],
@@ -522,6 +562,7 @@ const alcohols = [
         name: "heineken lager",
         link: "#",
         image: heineken,
+        amount: 1,
         price: 2,
       },
       {
@@ -529,6 +570,7 @@ const alcohols = [
         name: "budweiser",
         link: "#",
         image: budweiser,
+        amount: 1,
         price: 2.5,
       },
       {
@@ -536,6 +578,7 @@ const alcohols = [
         name: "stella arois",
         link: "#",
         image: stella,
+        amount: 1,
         price: 1.5,
       },
       {
@@ -543,6 +586,7 @@ const alcohols = [
         name: "paulaner",
         link: "#",
         image: paulaner,
+        amount: 1,
         price: 2.5,
       },
       {
@@ -550,6 +594,7 @@ const alcohols = [
         name: "corona extra",
         link: "#",
         image: corona,
+        amount: 1,
         price: 3,
       },
       {
@@ -557,6 +602,7 @@ const alcohols = [
         name: "becks",
         link: "#",
         image: becks,
+        amount: 1,
         price: 1.2,
       },
       {
@@ -564,6 +610,7 @@ const alcohols = [
         name: "guinness draught",
         link: "#",
         image: guinness,
+        amount: 1,
         price: 2.5,
       },
       {
@@ -571,6 +618,7 @@ const alcohols = [
         name: "leffe blonde",
         link: "#",
         image: leffe,
+        amount: 1,
         price: 1.7,
       },
       {
@@ -578,6 +626,7 @@ const alcohols = [
         name: "ayinger brau-weisse",
         link: "#",
         image: ayinger,
+        amount: 1,
         price: 2.1,
       },
       {
@@ -585,6 +634,7 @@ const alcohols = [
         name: "Augustiner-Brau Edelstoff",
         link: "#",
         image: augustiner,
+        amount: 1,
         price: 2,
       },
       {
@@ -592,6 +642,7 @@ const alcohols = [
         name: "weihenstephaner original",
         link: "#",
         image: weihenstephaner,
+        amount: 1,
         price: 1.6,
       },
       {
@@ -599,6 +650,7 @@ const alcohols = [
         name: "Franziskaner Hefe-Weissbier",
         link: "#",
         image: franziskaner,
+        amount: 1,
         price: 1.6,
       },
       {
@@ -606,6 +658,7 @@ const alcohols = [
         name: "warsteiner pilsner",
         link: "#",
         image: warsteiner,
+        amount: 1,
         price: 1.3,
       },
     ],
@@ -633,6 +686,7 @@ const alcohols = [
         name: "grey goose",
         link: "#",
         image: goose,
+        amount: 1,
         price: 65,
       },
       {
@@ -640,6 +694,7 @@ const alcohols = [
         name: "beluga noble russian vodka 750ml",
         link: "#",
         image: beluga,
+        amount: 1,
         price: 55,
       },
       {
@@ -647,6 +702,7 @@ const alcohols = [
         name: "belvedere",
         link: "#",
         image: belvedere,
+        amount: 1,
         price: 60,
       },
       {
@@ -654,6 +710,7 @@ const alcohols = [
         name: "absolut vodka",
         link: "#",
         image: absolut,
+        amount: 1,
         price: 35,
       },
       {
@@ -661,6 +718,7 @@ const alcohols = [
         name: "finlandia vodka 500ml",
         link: "#",
         image: finlandia,
+        amount: 1,
         price: 20,
       },
       {
@@ -668,6 +726,7 @@ const alcohols = [
         name: "smirnoff red vodka",
         link: "#",
         image: smirnoff,
+        amount: 1,
         price: 19,
       },
       {
@@ -675,6 +734,7 @@ const alcohols = [
         name: "wheatley vodka 750ml",
         link: "#",
         image: wheatley,
+        amount: 1,
         price: 22,
       },
       {
@@ -682,6 +742,7 @@ const alcohols = [
         name: "mamont vodka",
         link: "#",
         image: mamont,
+        amount: 1,
         price: 32,
       },
       {
@@ -689,6 +750,7 @@ const alcohols = [
         name: "absolut wild berry",
         link: "#",
         image: absolute,
+        amount: 1,
         price: 25,
       },
       {
@@ -696,6 +758,7 @@ const alcohols = [
         name: "ciroc apple vodka",
         link: "#",
         image: ciroc,
+        amount: 1,
         price: 36,
       },
     ],
@@ -729,6 +792,7 @@ const alcohols = [
         name: "patron silver tequila",
         link: "#",
         image: patron,
+        amount: 1,
         price: 52,
       },
       {
@@ -736,6 +800,7 @@ const alcohols = [
         name: "casamigos blanco tequila",
         link: "#",
         image: casamigos,
+        amount: 1,
         price: 58,
       },
       {
@@ -743,6 +808,7 @@ const alcohols = [
         name: "don julio 1942 anexo tequila",
         link: "#",
         image: julio,
+        amount: 1,
         price: 199,
       },
       {
@@ -750,6 +816,7 @@ const alcohols = [
         name: "e cuarenta reposado tequila ",
         link: "#",
         image: cuarenta,
+        amount: 1,
         price: 52.99,
       },
       {
@@ -757,6 +824,7 @@ const alcohols = [
         name: "tequila clase azul plata",
         link: "#",
         image: azul,
+        amount: 1,
         price: 134,
       },
       {
@@ -764,6 +832,7 @@ const alcohols = [
         name: "don julio 70 anejo cristalino tequila",
         link: "#",
         image: julio70,
+        amount: 1,
         price: 91,
       },
       {
@@ -771,6 +840,7 @@ const alcohols = [
         name: "e cuarenta anejo tequila",
         link: "#",
         image: cuarentaanejo,
+        amount: 1,
         price: 65,
       },
       {
@@ -778,6 +848,7 @@ const alcohols = [
         name: "don julio blanco tequila 750ml",
         link: "#",
         image: julioblanco,
+        amount: 1,
         price: 57,
       },
       {
@@ -785,6 +856,8 @@ const alcohols = [
         name: "RG legado anejo cristalino",
         link: "#",
         image: legado,
+        amount: 1,
+        amount: 1,
         price: 95,
       },
       {
@@ -792,6 +865,7 @@ const alcohols = [
         name: "cava de oro extra anejo",
         link: "#",
         image: cava,
+        amount: 1,
         price: 111,
       },
       {
@@ -799,6 +873,7 @@ const alcohols = [
         name: "olmeca blanco",
         link: "#",
         image: olmeca,
+        amount: 1,
         price: 35,
       },
       {
@@ -806,6 +881,7 @@ const alcohols = [
         name: "Sierra Norte Single Barrel Black",
         link: "#",
         image: siera,
+        amount: 1,
         price: 25,
       },
     ],
@@ -830,6 +906,7 @@ const alcohols = [
         name: "baileys irish cream",
         link: "#",
         image: baileys,
+        amount: 1,
         price: 38,
       },
       {
@@ -837,6 +914,7 @@ const alcohols = [
         name: "campari liqueur",
         link: "#",
         image: campari,
+        amount: 1,
         price: 35,
       },
       {
@@ -844,6 +922,7 @@ const alcohols = [
         name: "aperol aperitivo",
         link: "#",
         image: aperol,
+        amount: 1,
         price: 28,
       },
       {
@@ -851,6 +930,7 @@ const alcohols = [
         name: "crand marnier",
         link: "#",
         image: marnier,
+        amount: 1,
         price: 48,
       },
       {
@@ -858,6 +938,7 @@ const alcohols = [
         name: "kahlua coffee liqueur",
         link: "#",
         image: kahlua,
+        amount: 1,
         price: 29,
       },
       {
@@ -865,6 +946,7 @@ const alcohols = [
         name: "disaronno originale",
         link: "#",
         image: disaronno,
+        amount: 1,
         price: 38,
       },
       {
@@ -872,6 +954,7 @@ const alcohols = [
         name: "pernod anise l iqueur",
         link: "#",
         image: pernod,
+        amount: 1,
         price: 39,
       },
       {
@@ -879,6 +962,7 @@ const alcohols = [
         name: "jagermeister 750ml",
         link: "#",
         image: jagermeister,
+        amount: 1,
         price: 32,
       },
       {
@@ -886,6 +970,7 @@ const alcohols = [
         name: "cointreau L'Unique",
         link: "#",
         image: cointreau,
+        amount: 1,
         price: 49,
       },
       {
@@ -893,6 +978,7 @@ const alcohols = [
         name: "tempus fugit creme de banane",
         link: "#",
         image: tempus,
+        amount: 1,
         price: 41,
       },
     ],
@@ -920,6 +1006,7 @@ const alcohols = [
         name: "earl stevens mangoscato",
         link: "#",
         image: stevens,
+        amount: 1,
         price: 24,
       },
       {
@@ -927,6 +1014,7 @@ const alcohols = [
         name: "dom perignon vintage 2012 brut",
         link: "#",
         image: dom,
+        amount: 1,
         price: 299,
       },
       {
@@ -934,6 +1022,7 @@ const alcohols = [
         name: "luc belaire luxe",
         link: "#",
         image: belaire,
+        amount: 1,
         price: 48,
       },
       {
@@ -941,6 +1030,7 @@ const alcohols = [
         name: "moet & chandon nectar imperial",
         link: "#",
         image: moet,
+        amount: 1,
         price: 76,
       },
       {
@@ -948,6 +1038,7 @@ const alcohols = [
         name: "caymus vineyards cabernet sauvignon napa valley",
         link: "#",
         image: caymus,
+        amount: 1,
         price: 99,
       },
       {
@@ -955,6 +1046,7 @@ const alcohols = [
         name: "Chateau Mukhrani Saperavi Red Wine",
         link: "#",
         image: saperavi,
+        amount: 1,
         price: 75,
       },
       {
@@ -962,6 +1054,7 @@ const alcohols = [
         name: "Oyster Bay Sauvignon Blanc",
         link: "#",
         image: oyster,
+        amount: 1,
         price: 20,
       },
       {
@@ -969,6 +1062,7 @@ const alcohols = [
         name: "Pascal Jolivet Sauvignon Blanc Attitude",
         link: "#",
         image: pascal,
+        amount: 1,
         price: 120,
       },
       {
@@ -976,6 +1070,7 @@ const alcohols = [
         name: "dolin vermouth de chambery dry 750ml",
         link: "#",
         image: dolin,
+        amount: 1,
         price: 19,
       },
       {
@@ -983,6 +1078,7 @@ const alcohols = [
         name: "19 crimes snoop cali rose",
         link: "#",
         image: snoop,
+        amount: 1,
         price: 18,
       },
     ],
@@ -1007,6 +1103,7 @@ const alcohols = [
         name: "Martini & Rossi Bitter",
         link: "#",
         image: bitter,
+        amount: 1,
         price: 22,
       },
       {
@@ -1014,6 +1111,7 @@ const alcohols = [
         name: "vermina blanco vermouth",
         link: "#",
         image: vermina,
+        amount: 1,
         price: 13,
       },
       {
@@ -1021,6 +1119,7 @@ const alcohols = [
         name: "noily prat rouge 750ml",
         link: "#",
         image: noily,
+        amount: 1,
         price: 17,
       },
       {
@@ -1028,6 +1127,7 @@ const alcohols = [
         name: "pedro & co. blanco reserva",
         link: "#",
         image: pedro,
+        amount: 1,
         price: 32,
       },
       {
@@ -1035,6 +1135,7 @@ const alcohols = [
         name: "martini rosso",
         link: "#",
         image: rosso,
+        amount: 1,
         price: 23,
       },
       {
@@ -1042,6 +1143,7 @@ const alcohols = [
         name: "carpano antica formula",
         link: "#",
         image: carpano,
+        amount: 1,
         price: 40,
       },
       {
@@ -1049,6 +1151,7 @@ const alcohols = [
         name: "drapo rosso",
         link: "#",
         image: drapo,
+        amount: 1,
         price: 21,
       },
       {
@@ -1056,6 +1159,7 @@ const alcohols = [
         name: "Martini & Rossi Extra Dry",
         link: "#",
         image: dry,
+        amount: 1,
         price: 19,
       },
       {
@@ -1063,6 +1167,7 @@ const alcohols = [
         name: "bordiga vermoith di torino rosso",
         link: "#",
         image: bordiga,
+        amount: 1,
         price: 20,
       },
       {
@@ -1070,6 +1175,7 @@ const alcohols = [
         name: "lo fi aperitifs sweet",
         link: "#",
         image: lofi,
+        amount: 1,
         price: 28,
       },
     ],

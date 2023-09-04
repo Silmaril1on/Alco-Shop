@@ -17,7 +17,7 @@ const showBar = {
 
 function PriceRange({ setSpirits }) {
   const [price, setPrice] = useState(40);
-  const [hide, setHide] = useState(false);
+  const [hide, setHide] = useState(true);
 
   const hideBar = () => {
     setHide(!hide);
@@ -43,7 +43,7 @@ function PriceRange({ setSpirits }) {
           animate="visible"
           exit="exit"
         >
-          <input type="range" onInput={handleInput} />
+          <input type="range" min="1" max="200" onInput={handleInput} />
           <h5>Price: $ {price} </h5>{" "}
         </motion.div>
       )}

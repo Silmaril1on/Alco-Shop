@@ -10,6 +10,7 @@ function Button({ children, onClick, $variants }) {
 }
 
 const Btn = styled.button`
+  align-items: center;
   background: ${({ $variants }) =>
     $variants === "black"
       ? "white"

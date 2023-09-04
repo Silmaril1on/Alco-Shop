@@ -2,36 +2,21 @@ import React from "react";
 import "./beer.scss";
 
 function Beer() {
-  const [active, setActive] = React.useState("");
+  const [active, setActive] = React.useState(0);
 
-  const handleClick = (event) => {
-    setActive(event.target.id);
+  const count = () => {
+    setActive(active + 1);
+  };
+
+  const remove = () => {
+    setActive(0);
   };
 
   return (
     <>
-      <h1
-        className={active === "1" ? "active-h1" : "non-active"}
-        id={"1"}
-        onClick={handleClick}
-      >
-        hello world
-      </h1>
-      <h1
-        className={active === "2" ? "active-h1" : "non-active"}
-        id={"2"}
-        onClick={handleClick}
-      >
-        hello world
-      </h1>
-
-      <h1
-        className={active === "3" ? "active-h1" : "non-active"}
-        id={"3"}
-        onClick={handleClick}
-      >
-        hello world
-      </h1>
+      <h1 className="beer">{active}</h1>
+      <button onClick={count}>add to cart</button>
+      <button onClick={remove}>remove count</button>
     </>
   );
 }
