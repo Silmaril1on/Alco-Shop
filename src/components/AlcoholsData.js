@@ -367,6 +367,7 @@ const alcohols = [
         name: "remy martin VSOP",
         link: "#",
         image: remyvsop,
+        amount: 1,
         price: 205,
       },
       {

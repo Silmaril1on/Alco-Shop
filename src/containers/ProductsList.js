@@ -48,11 +48,11 @@ function ProductsList() {
   };
 
   const updateCartAmount = (item) => {
-    let isPresent = false;
+    let popUp = false;
     cartAmount.forEach((product) => {
-      if (item.id === product.id) isPresent = true;
+      if (item.id === product.id) popUp = true;
     });
-    if (isPresent) {
+    if (popUp) {
       setWarning(true);
       setTimeout(() => {
         setWarning(false);
